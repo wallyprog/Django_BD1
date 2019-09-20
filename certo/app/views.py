@@ -36,7 +36,7 @@ def editar_marca(request, pk, template_name='marca_form.html'):
             return redirect('marca_list')
         else:
             form = MarcaForm(instance=marca)
-    return render(request, template_name, {'form': marca})
+    return render(request, template_name, {'form': form})
 
 
 def deletar_marca(request, pk, template_name="delete_marca.html"):
