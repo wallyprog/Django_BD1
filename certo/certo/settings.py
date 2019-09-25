@@ -78,8 +78,8 @@ WSGI_APPLICATION = 'certo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'diazepam',
-        'USER': 'postgres',
+        'NAME': 'duloxetina',
+        'USER': 'wallyson',
         'PASSWORD': '28327yzf',
         'HOST': 'localhost',
         'PORT': '5432',
